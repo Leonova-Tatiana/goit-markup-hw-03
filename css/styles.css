@@ -135,8 +135,7 @@ img {
 
 .hero {
   background: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 188px 0;
 }
 .hero-title {
   font-weight: 700;
@@ -223,8 +222,8 @@ img {
 }
 
 .team-list {
-  display: flex;
   flex-wrap: wrap;
+  display: flex;
   gap: 24px;
   row-gap: 48px;
   padding-left: 156px;
@@ -241,7 +240,6 @@ img {
 .container-team {
   padding: 32px 0;
   text-align: center;
-  margin-bottom: 8px;
 
 }
 .team-subtitle {
@@ -252,6 +250,7 @@ img {
   text-align: center;
   color: #2e2f42;
   padding-top: 32px;
+  margin-bottom: 8px;
 }
 .team-item-text {
   font-weight: 400;
@@ -264,6 +263,12 @@ img {
 .portfolio {
   padding: 120px 0;
 }
+
+.portfolio-card-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+}
+
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -296,6 +301,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 32px 16px 8px;
+  margin-bottom: 8px;
 }
 .portfolio-item-text {
   font-weight: 400;
@@ -317,6 +323,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-studio {
@@ -328,4 +336,5 @@ img {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
