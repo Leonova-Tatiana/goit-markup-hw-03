@@ -34,7 +34,7 @@ img {
 }
 
 button {
-  background-color: blue;
+  background-color: #4d5ae5;
   color: aliceblue;
   height: 56px;
   border: none;
@@ -228,6 +228,11 @@ button {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0 0 4px 4px;
+  margin-right: 24px;
+}
+
+.team-item:nth-child(4n) {
+  margin-right: 0;
 }
 .container-team {
   padding: 32px 0;
