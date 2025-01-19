@@ -33,7 +33,7 @@ img {
   display: block;
 }
 
-[type="button"] {
+button {
   background-color: blue;
   color: aliceblue;
   height: 56px;
