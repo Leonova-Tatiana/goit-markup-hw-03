@@ -181,11 +181,9 @@ img {
 .services-list {
   display: flex;
   gap: 24px;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 .services-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 .services-subtitle {
   font-family: "Roboto";
