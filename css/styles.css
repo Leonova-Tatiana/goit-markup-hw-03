@@ -117,6 +117,7 @@ img {
 .address-menu-list {
   display: flex;
   gap: 40px;
+  padding-top: 24px;
 }
 .address-menu-item {
 }  
@@ -169,6 +170,20 @@ img {
   background-color: #404bbf;
   color: #fff;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .services {
   padding: 120px 0;
 }
@@ -233,7 +248,7 @@ img {
 .team-item {
   text-align: center;
   background-color: #ffffff;
-  width: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 72px) / 4);
   display: block;
   border-radius: 0 0 4px 4px;
 }
